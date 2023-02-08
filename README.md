@@ -1,6 +1,6 @@
 # About
 
-A shell function for auto-completing script commnds from package.json.
+A shell function for auto-completing script commands from package.json.
 
 # Installation
 
