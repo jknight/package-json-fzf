@@ -39,4 +39,4 @@ function hi(){ echo "Your word is: $(cat /usr/share/dict/words | fzf -q "$1" --p
 Your word is: worldliness
 ```
 
-fzf also has an argment for executing a command against results: `--bind "enter:execute(less {})"`, but this runs the command then brings you back int fzf.
+fzf also has an argment for executing a command against results: `--bind "enter:execute(less {})"`, but this runs the command then brings you back into fzf [which isn't ideal](https://github.com/junegunn/fzf/issues/3159).
